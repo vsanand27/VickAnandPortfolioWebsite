@@ -1,0 +1,8 @@
+# Local agent/tooling config (not part of the site)
+.claude/
+.agents/
+skills-lock.json
+
+# OS junk
+Thumbs.db
+.DS_Store
