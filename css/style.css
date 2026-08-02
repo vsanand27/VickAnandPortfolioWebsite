@@ -291,7 +291,7 @@ img { max-width: 100%; display: block; }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; }
 
-.hero-visual { justify-self: end; width: min(100%, 380px); }
+.hero-visual { justify-self: end; width: min(100%, 340px); }
 
 .portrait {
   position: relative;
@@ -310,12 +310,20 @@ img { max-width: 100%; display: block; }
 }
 .portrait img { width: 100%; height: auto; filter: saturate(0.92); }
 
+.portrait-circle {
+  border-radius: 50%;
+  border-color: var(--accent-line);
+  box-shadow: 0 0 0 7px var(--accent-soft), var(--shadow);
+}
+.portrait-circle img { filter: none; }
+
 .portrait-role {
-  margin-top: 0.9rem;
+  margin-top: 1.2rem;
   font-family: var(--font-mono);
   font-size: 0.78rem;
   line-height: 1.55;
   color: var(--text-3);
+  text-align: center;
 }
 
 /* Hero load-in (gated by reduced-motion) */

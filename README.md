@@ -24,7 +24,9 @@ top of `css/style.css` (`:root` = dark theme, the `prefers-color-scheme: light`
 block = light theme).
 
 To swap the headshot, replace `assets/img/vick-anand.jpg` with a new photo
-(ideally 1200px+ wide, similar portrait crop).
+(square crop, 640px+; it renders as a circle in the hero). The current one is
+the LinkedIn profile photo, upscaled and sharpened from a 272px capture, so a
+fresh high-resolution original would be a worthwhile upgrade.
 
 To update the resume, replace `assets/Vick-Anand-Resume.pdf` (keep the filename).
 
