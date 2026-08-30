@@ -10,22 +10,6 @@ all live inside it. There is no build step, no package manager, no dependencies 
 install, no test suite, and no CI. The only external requests are Google Fonts
 (Fraunces / Newsreader / IBM Plex Mono).
 
-## Read this before trusting README.md
-
-**`README.md` is stale — it documents the previous version of this site.** It describes a
-multi-file build (`css/style.css`, `js/main.js`, self-hosted Geist fonts, a dark/light
-theme pair, and a different set of sections). None of that is true of the current
-`index.html`, which is fully self-contained. Verified mismatches:
-
-| README claims | Actual |
-|---|---|
-| Self-hosted Geist + Geist Mono | Google Fonts: Fraunces, Newsreader, IBM Plex Mono |
-| `:root` dark theme + `prefers-color-scheme` light block | No `prefers-color-scheme` at all; one light palette |
-| Design tokens in `css/style.css` | Tokens inline in `index.html` |
-| Sections: metrics, about, AI, projects, recommendations, credentials | `rooms`, `writing`, `record`, `experience`, `builds`, `references`, `contact` |
-
-Treat `index.html` as the only source of truth.
-
 ## Unreferenced files in the repo
 
 `index.html` contains **zero** references to `assets/`, `css/`, or `js/` — grep confirms
